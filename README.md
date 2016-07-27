@@ -9,6 +9,8 @@
 ------------------
 - [百度手机助手](http://shouji.baidu.com/software/9690734.html)
 - [腾讯应用宝](http://android.myapp.com/myapp/detail.htm?apkName=com.foodie.app)
+
+
 ## APP截图
 -----------------------
 ![首页](http://bjtu-foodie.oss-cn-shanghai.aliyuncs.com/home.png)
