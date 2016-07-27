@@ -4,16 +4,17 @@
 -------------------
 
 **小食光**定位为一款集美食，社交，LBS服务于一体的美食推荐APP。为你发现周边美食的同时提供一个吃货分享的平台。
+
+## 下载地址
+------------------
+- [百度手机助手](http://shouji.baidu.com/software/9690734.html)
+- [腾讯应用宝](http://android.myapp.com/myapp/detail.htm?apkName=com.foodie.app)
 ## APP截图
 -----------------------
 ![首页](http://bjtu-foodie.oss-cn-shanghai.aliyuncs.com/home.png)
 ![商家定位](http://bjtu-foodie.oss-cn-shanghai.aliyuncs.com/location.png)
 ![我的](http://bjtu-foodie.oss-cn-shanghai.aliyuncs.com/me.png)
 ![发现](http://bjtu-foodie.oss-cn-shanghai.aliyuncs.com/message.png)
-## 下载地址
-------------------
-- [百度手机助手](http://shouji.baidu.com/software/9690734.html)
-- [腾讯应用宝](http://android.myapp.com/myapp/detail.htm?apkName=com.foodie.app)
 
 
 ## 功能模块
