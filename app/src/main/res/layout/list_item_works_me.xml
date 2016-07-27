@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rl_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/iv_works_image"
+            android:src="@drawable/recipe"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/tv_post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:text="2016-07-08 16:00"
+            android:layout_toRightOf="@+id/iv_works_image"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/tv_nickname"
+            android:textColor="@color/gray"
+            android:textSize="25dp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:background="@color/white"
+            android:paddingLeft="2dp"
+            android:paddingRight="10dp"
+            android:layout_toRightOf="@+id/iv_works_image"
+            android:layout_below="@+id/tv_post_time"
+            android:id="@+id/tv_introduction"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="交大东路姥姥春饼店很不错,第二次来了"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

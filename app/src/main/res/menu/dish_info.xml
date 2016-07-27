@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_border_white"
+        android:orderInCategory="100"
+        android:title="收藏"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_more_vert_white"
+        app:showAsAction="always"
+        android:title="更多" >
+
+        <menu>
+            <item
+                android:id="@+id/action_browser"
+                android:orderInCategory="100"
+                android:title="浏览器打开"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

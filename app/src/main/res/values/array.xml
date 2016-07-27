@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languages">
+        <item>综合排序</item>
+        <item> 按距离排序 </item>
+        <item>按评分排序</item>
+    </string-array>
+
+</resources>

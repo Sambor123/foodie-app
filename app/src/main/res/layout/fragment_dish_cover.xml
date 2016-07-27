@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="#c9c9c9">
+
+    <!-- 图书封面 -->
+    <ImageView
+        android:id="@+id/dish_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recipe"/>
+
+    <!-- 评分 -->
+    <LinearLayout
+        android:id="@+id/dish_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/book_rate_background"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="综合评分:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_cover_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="0.0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+        <RatingBar
+            android:id="@+id/rb_cover_rate"
+            style="@style/RatingBar_Yellow_Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="0.1" />
+    </LinearLayout>
+</RelativeLayout>

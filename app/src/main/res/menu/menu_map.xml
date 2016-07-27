@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_action_search"
+        android:icon="@drawable/ic_search_white_24dp_map"
+        android:title="搜索"
+        android:orderInCategory="90"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_action_location"
+        android:icon="@drawable/ic_my_location_white_24dp"
+        android:title="定位"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

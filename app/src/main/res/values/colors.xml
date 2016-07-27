@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="bacground">#F1F1F1</color>
+
+    <color name="blue">#6c7df1</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_teal">#009688</color>
+    <color name="purple">#673AB7</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+    <color name="orange">#FFCC80</color>
+    <color name="deep_orange">#FFA726</color>
+    <color name="lightgray">#fafaf5</color>
+    <color name="black">#484432</color>
+    <color name="dark_gray">#7b7769</color>
+    <color name="gray">#a3a090</color>
+    <color name="border">#dbdbce</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#33000000</color>
+
+
+    <color name="text_color_primary">@color/black</color>
+    <color name="text_color_secondary">@color/dark_gray</color>
+    <color name="text_color_tertiary">@color/gray</color>
+    <color name="text_color_hint">@color/border</color>
+
+    <!-- Tab标签 -->
+    <color name="tab_color_text_normal">#99E6EF</color>
+    <color name="tab_color_text_highlight">#ffffff</color>
+    <color name="tab_color_line">#ffffff</color>
+
+    <!--  Fragment -->
+    <color name="book_info_item_tag_font">#ffffff</color>
+    <color name="book_info_item_tag_bgcolor">@color/colorPrimary</color>
+    <color name="book_info_item_font">@color/colorPrimary</color>
+    <!-- 字体颜色 -->
+    <color name="font_normal">#555555</color>
+    <color name="font_deep">#222222</color>
+    <color name="font_light">#888888</color>
+    <color name="font_gray">#656565</color>
+
+    <!-- 分割线 -->
+    <color name="line">#e5e5e5</color>
+    <color name="line_bg">#e6e6e6</color>
+    <color name="listview_divier">#dedede</color>
+    <!-- 按钮默认灰色背景 -->
+    <color name="button_normal_bg">#f5f7f7</color>
+
+    <!-- hint色 -->
+    <color name="text_hint">#b3b3b3</color>
+    <!-- 输入边框 -->
+    <color name="login_text_color">#222222</color>
+    <color name="input_border">#a5a5a5</color>
+    <!-- 主页灰白色 -->
+    <color name="white_50">#e8e8e8</color>
+    <!-- 描边线 -->
+    <color name="button_divider">#dbd9d9</color>
+    <!-- 45%透明黑 -->
+    <color name="black_alpha">#71000000</color>
+    <!-- 30%透明黑 -->
+    <color name="black_alpha_30">#48000000</color>
+</resources>

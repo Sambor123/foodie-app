@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_action_map"
+        android:icon="@drawable/ic_location_on_white_24dp"
+        android:title="地图"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_more_vert_white"
+        app:showAsAction="always"
+        android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:title="@string/menu_settings"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

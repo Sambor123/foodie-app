@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/ll"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.etsy.android.grid.StaggeredGridView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/channel_dish_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_count="2"
+            app:item_margin="8dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="-320dp"
+        android:text="你还没有收藏过美食" />
+    <!-- progress -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+</LinearLayout>
