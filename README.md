@@ -63,8 +63,8 @@
 
 ## 打赏
 ---------------------
-[打赏](https://github.com/Sambor123/foodie-webserver/blob/master/alipay.jpeg?raw=true)
-[打赏](https://github.com/Sambor123/foodie-webserver/blob/master/alipay.jpeg?raw=true)
+![打赏](https://github.com/Sambor123/foodie-webserver/blob/master/alipay.jpeg?raw=true)
+![打赏](https://github.com/Sambor123/foodie-webserver/blob/master/alipay.jpeg?raw=true)
 # License
 ```
 Copyright 2016 Sambor 
