@@ -48,7 +48,7 @@
 ## APP后台地址
 ---------------------
 
-后台使用Spring+Spring MVC+Mybatis集成，github地址为[https://github.com/Sambor123/food-server](https://github.com/Sambor123/food-server)
+后台使用Spring+Spring MVC+Mybatis集成，github地址为[https://github.com/Sambor123/food-server](https://github.com/Sambor123/food-webServer)
 
 ## 联系方式
 ---------------------
