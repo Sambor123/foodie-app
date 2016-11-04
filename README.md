@@ -61,11 +61,6 @@
 ---------------------
 由于项目是本着敏捷开发的原则做的，并且是我第一次做的完整项目，因此代码质量不敢保证，仅供学习参考。
 
-## 打赏
----------------------
-![打赏](https://github.com/Sambor123/foodie-webserver/blob/master/alipay.jpeg?raw=true)
----------------------
-![打赏](https://github.com/Sambor123/foodie-webserver/blob/master/weixin.jpeg?raw=true)
 # License
 ```
 Copyright 2016 Sambor 
