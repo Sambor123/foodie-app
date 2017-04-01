@@ -4,7 +4,7 @@ package com.foodie.app.util;
  * Created by wwjun.wang on 2015/8/11.
  */
 public class Constant {
-    public static final String BASEURL = "http://114.215.135.153:8008/";
+    public static final String BASEURL = "http://60.205.201.32/";
     public static final String START = "start-image/1080*1776";
     public static final String THEMES = "themes";
     public static final String LATESTNEWS = "news/latest";
